@@ -214,22 +214,20 @@ input[type="radio"]:checked + label {
     border: 2px solid #ff375c;
 }
 
-#torty:checked ~ .grid .card,
-#keksy:checked ~ .grid .card,
-#tistechka:checked ~ .grid .card,
-#cookies:checked ~ .grid .card,
-#pancakes:checked ~ .grid .card,
-#donuts:checked ~ .grid .card,
+#cake:checked ~ .grid .card,
+#rylet:checked ~ .grid .card,
+#purig:checked ~ .grid .card,
+#sirniki:checked ~ .grid .card,
+#tistechko:checked ~ .grid .card,
 #waffles:checked ~ .grid .card {
     display: none;
 }
 
-#torty:checked ~ .grid .torty,
-#keksy:checked ~ .grid .keksy,
-#tistechka:checked ~ .grid .tistechka,
-#cookies:checked ~ .grid .cookies,
-#pancakes:checked ~ .grid .pancakes,
-#donuts:checked ~ .grid .donuts,
+#cake:checked ~ .grid .cake,
+#rylet:checked ~ .grid .rylet,
+#purig:checked ~ .grid .purig,
+#sirniki:checked ~ .grid .sirniki,
+#tistechko:checked ~ .grid .tistechko,
 #waffles:checked ~ .grid .waffles {
     display: block;
 }
